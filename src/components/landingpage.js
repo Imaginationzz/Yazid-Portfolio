@@ -12,7 +12,7 @@ class Landing extends Component {
               src="https://previews.123rf.com/images/hironicons/hironicons1912/hironicons191201172/136455877-cv-resume-icon.jpg"
               alt="avatar"
               className="avatar-img"
-              style={{ height: "2rem" }}
+              style={{ maxHeight: "3rem" }}
             />
 
             <div className="banner-text">
