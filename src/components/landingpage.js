@@ -8,12 +8,13 @@ class Landing extends Component {
       <div style={{ width: '100%', margin: 'auto' }}>
         <Grid className="landing-grid">
           <Cell col={12}>
-            <img
+            {/* <img
               src="https://previews.123rf.com/images/hironicons/hironicons1912/hironicons191201172/136455877-cv-resume-icon.jpg"
               alt="avatar"
               className="avatar-img"
               style={{ maxHeight: "3rem" }}
-            />
+            /> */}
+            <div><p>Welcome to my Portfolio!</p></div>
 
             <div className="banner-text">
               <h1>Full Stack Web Developer</h1>
