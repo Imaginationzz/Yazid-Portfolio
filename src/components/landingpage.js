@@ -14,7 +14,8 @@ class Landing extends Component {
               className="avatar-img"
               style={{ maxHeight: "3rem" }}
             /> */}
-            <div style={{ marginTop: "2rem", marginBottom="2rem" }}><p>Welcome to my Portfolio!</p></div>
+            <div style={{ marginTop: "5rem", marginBottom: "5rem", color: "black", fontFamily: "Nunito" }}>
+              <h3>Welcome to my Portfolio!</h3></div>
 
             <div className="banner-text">
               <h1>Full Stack Web Developer</h1>
@@ -41,7 +42,7 @@ class Landing extends Component {
             </div>
           </Cell>
         </Grid>
-      </div>
+      </div >
     )
   }
 }
