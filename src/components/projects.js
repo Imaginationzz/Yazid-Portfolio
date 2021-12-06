@@ -20,7 +20,7 @@ class Projects extends Component {
 
               <CardText>
                 a market place for used furnitures with many cool features.
-            </CardText>
+              </CardText>
               <CardActions border>
                 <a href="https://github.com/Imaginationzz" target="_blank">
                   <Button colored>GitHub</Button>
@@ -39,7 +39,7 @@ class Projects extends Component {
               <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://interactive-examples.mdn.mozilla.net/media/cc0-images/grapefruit-slice-332-332.jpg) center / cover' }} >React Project #2</CardTitle>
               <CardText>
                 lightweight Netflix clone with nice user experience!
-            </CardText>
+              </CardText>
               <CardActions border>
                 <a href="https://github.com/Imaginationzz/netflix-clone-updated" target="_blank">
                   <Button colored>GitHub</Button>
@@ -56,7 +56,7 @@ class Projects extends Component {
               <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://image.freepik.com/free-photo/double-exposure-image-business-profit-growth_31965-3022.jpg) center / cover' }} >React Project #3</CardTitle>
               <CardText>
                 whatsApp Clone with nice features!
-            </CardText>
+              </CardText>
               <CardActions border>
                 <a href="https://github.com/Imaginationzz/" target="_blank">
                   <Button colored>GitHub</Button>
@@ -78,7 +78,7 @@ class Projects extends Component {
               <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://www.wpexplorer.com/wp-content/uploads/wordpress-image-optimization-guide.jpg) center / cover' }} >React Project 4</CardTitle>
               <CardText>
                 LinkedIn Clone
-            </CardText>
+              </CardText>
               <CardActions border>
                 <a href="https://github.com/Imaginationzz" target="_blank">
                   <Button colored>GitHub</Button>
@@ -95,7 +95,7 @@ class Projects extends Component {
               <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg) center / cover' }} >React Project #5</CardTitle>
               <CardText>
                 Appointment organizer for Doctor.
-            </CardText>
+              </CardText>
               <CardActions border>
                 <a href="https://github.com/Imaginationzz" target="_blank">
                   <Button colored>GitHub</Button>
@@ -112,10 +112,48 @@ class Projects extends Component {
               <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://wallpaperaccess.com/full/806272.jpg) center / cover' }} >React Project #6</CardTitle>
               <CardText>
                 web App that provides daily general advices.
-            </CardText>
+              </CardText>
               <CardActions border>
                 <a href="https://github.com/Imaginationzz" target="_blank">
                   <Button colored>GitHub</Button>
+                </a>
+
+
+              </CardActions>
+              <CardMenu style={{ color: '#fff' }}>
+                <IconButton name="share" />
+              </CardMenu>
+            </Card>
+            <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+              <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://wallpaperaccess.com/full/806272.jpg) center / cover' }} >React Project #6</CardTitle>
+              <CardText>
+                portfolio for an IT company.
+              </CardText>
+              <CardActions border>
+                <a href="https://github.com/Imaginationzz/mtsysinfo2" target="_blank">
+                  <Button colored>GitHub</Button>
+                </a>
+                <a href="https://mtsysinfov2.herokuapp.com/" target="_blank">
+                  <Button colored>Live Demo</Button>
+                </a>
+
+
+              </CardActions>
+              <CardMenu style={{ color: '#fff' }}>
+                <IconButton name="share" />
+              </CardMenu>
+            </Card>
+            <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+              <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://wallpaperaccess.com/full/806272.jpg) center / cover' }} >React Project #6</CardTitle>
+              <CardText>
+                portfolio for an IT company.
+              </CardText>
+              <CardActions border>
+                <a href="https://github.com/Imaginationzz/mtsysinfo" target="_blank">
+                  <Button colored>GitHub</Button>
+                </a>
+                <a href="https://mtsysinfo.herokuapp.com/" target="_blank">
+                  <Button colored>Live Demo</Button>
                 </a>
 
 
