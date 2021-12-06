@@ -124,8 +124,10 @@ class Projects extends Component {
                 <IconButton name="share" />
               </CardMenu>
             </Card>
+          </div>
+          <div className="projects-grid " style={{ marginTop: "2rem" }}>
             <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-              <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://wallpaperaccess.com/full/806272.jpg) center / cover' }} >React Project #6</CardTitle>
+              <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://www.w3schools.com/w3css/img_lights.jpg) bottom right 15% no-repeat #46B6AC' }} >React Project #7</CardTitle>
               <CardText>
                 portfolio for an IT company.
               </CardText>
@@ -144,12 +146,12 @@ class Projects extends Component {
               </CardMenu>
             </Card>
             <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-              <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://wallpaperaccess.com/full/806272.jpg) center / cover' }} >React Project #6</CardTitle>
+              <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg) center / cover' }} >React Project #8</CardTitle>
               <CardText>
                 portfolio for an IT company.
               </CardText>
               <CardActions border>
-                <a href="https://github.com/Imaginationzz/mtsysinfo" target="_blank">
+                <a href="https://github.com/Imaginationzz/mtsysinfo/" target="_blank">
                   <Button colored>GitHub</Button>
                 </a>
                 <a href="https://mtsysinfo.herokuapp.com/" target="_blank">
