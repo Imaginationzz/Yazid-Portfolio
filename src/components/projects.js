@@ -94,10 +94,13 @@ class Projects extends Component {
             <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
               <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg) center / cover' }} >React Project #5</CardTitle>
               <CardText>
-                Appointment organizer for Doctor.
+                a Blog for anyone who wants to write and share..
               </CardText>
               <CardActions border>
-                <a href="https://github.com/Imaginationzz" target="_blank">
+                <a href="https://yazid-blog-fe.herokuapp.com/" target="_blank">
+                  <Button colored>Live Demo</Button>
+                </a>
+                <a href="https://github.com/Imaginationzz/blog-fe" target="_blank">
                   <Button colored>GitHub</Button>
                 </a>
 
