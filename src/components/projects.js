@@ -117,7 +117,10 @@ class Projects extends Component {
                 web App that provides daily general advices.
               </CardText>
               <CardActions border>
-                <a href="https://github.com/Imaginationzz" target="_blank">
+                <a href="https://yaz-generaladvice.herokuapp.com/" target="_blank">
+                  <Button colored>Live Demo</Button>
+                </a>
+                <a href="https://github.com/Imaginationzz/generaladvise" target="_blank">
                   <Button colored>GitHub</Button>
                 </a>
 
