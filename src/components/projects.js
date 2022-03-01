@@ -44,7 +44,9 @@ class Projects extends Component {
                 <a href="https://github.com/Imaginationzz/netflix-clone-updated" target="_blank">
                   <Button colored>GitHub</Button>
                 </a >
-                <Button colored>Live Demo</Button>
+                <a href="https://yazflix.herokuapp.com/" target="_blank">
+                  <Button colored>Live Demo</Button>
+                </a>
               </CardActions>
               <CardMenu style={{ color: '#fff' }}>
                 <IconButton name="share" />
