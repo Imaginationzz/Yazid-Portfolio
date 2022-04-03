@@ -172,6 +172,25 @@ class Projects extends Component {
                 <IconButton name="share" />
               </CardMenu>
             </Card>
+            <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+              <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg) center / cover' }} >React Project #8</CardTitle>
+              <CardText>
+                E-commerce portal for dairy products.
+              </CardText>
+              <CardActions border>
+                <a href="https://github.com/Imaginationzz/farm-fe/" target="_blank">
+                  <Button colored>GitHub</Button>
+                </a>
+                <a href="https://yazfarm.herokuapp.com/" target="_blank">
+                  <Button colored>Live Demo</Button>
+                </a>
+
+
+              </CardActions>
+              <CardMenu style={{ color: '#fff' }}>
+                <IconButton name="share" />
+              </CardMenu>
+            </Card>
           </div>
 
         </React.Fragment>
