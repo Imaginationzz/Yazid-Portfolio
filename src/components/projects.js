@@ -173,7 +173,7 @@ class Projects extends Component {
               </CardMenu>
             </Card>
             <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-              <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg) center / cover' }} >React Project #8</CardTitle>
+              <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg) center / cover' }} >React Project #9</CardTitle>
               <CardText>
                 E-commerce portal for dairy products.
               </CardText>
@@ -182,6 +182,25 @@ class Projects extends Component {
                   <Button colored>GitHub</Button>
                 </a>
                 <a href="https://yazfarm.herokuapp.com/" target="_blank">
+                  <Button colored>Live Demo</Button>
+                </a>
+
+
+              </CardActions>
+              <CardMenu style={{ color: '#fff' }}>
+                <IconButton name="share" />
+              </CardMenu>
+            </Card>
+            <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+              <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg) center / cover' }} >React Project #10</CardTitle>
+              <CardText>
+                a quiz game.
+              </CardText>
+              <CardActions border>
+                <a href="https://github.com/Imaginationzz/quiz/" target="_blank">
+                  <Button colored>GitHub</Button>
+                </a>
+                <a href="https://prophet-quiz.herokuapp.com/" target="_blank">
                   <Button colored>Live Demo</Button>
                 </a>
 
