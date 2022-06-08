@@ -191,44 +191,46 @@ class Projects extends Component {
                 <IconButton name="share" />
               </CardMenu>
             </Card>
-            <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-              <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg) center / cover' }} >React Project #10</CardTitle>
-              <CardText>
-                a quiz game.
-              </CardText>
-              <CardActions border>
-                <a href="https://github.com/Imaginationzz/quiz/" target="_blank">
-                  <Button colored>GitHub</Button>
-                </a>
-                <a href="https://prophet-quiz.herokuapp.com/" target="_blank">
-                  <Button colored>Live Demo</Button>
-                </a>
+            <div className="projects-grid " style={{ marginTop: "2rem" }}>
+              <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg) center / cover' }} >React Project #10</CardTitle>
+                <CardText>
+                  a quiz game.
+                </CardText>
+                <CardActions border>
+                  <a href="https://github.com/Imaginationzz/quiz/" target="_blank">
+                    <Button colored>GitHub</Button>
+                  </a>
+                  <a href="https://prophet-quiz.herokuapp.com/" target="_blank">
+                    <Button colored>Live Demo</Button>
+                  </a>
 
 
-              </CardActions>
-              <CardMenu style={{ color: '#fff' }}>
-                <IconButton name="share" />
-              </CardMenu>
-            </Card>
-            <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-              <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg) center / cover' }} >React Project #10</CardTitle>
-              <CardText>
-                Personal Portfolio 2
-              </CardText>
-              <CardActions border>
-                <a href="https://github.com/Imaginationzz/secondportfolio/" target="_blank">
-                  <Button colored>GitHub</Button>
-                </a>
-                <a href="https://yezidrahmouni.herokuapp.com/" target="_blank">
-                  <Button colored>Live Demo</Button>
-                </a>
+                </CardActions>
+                <CardMenu style={{ color: '#fff' }}>
+                  <IconButton name="share" />
+                </CardMenu>
+              </Card>
+              <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg) center / cover' }} >React Project #10</CardTitle>
+                <CardText>
+                  Personal Portfolio 2
+                </CardText>
+                <CardActions border>
+                  <a href="https://github.com/Imaginationzz/secondportfolio/" target="_blank">
+                    <Button colored>GitHub</Button>
+                  </a>
+                  <a href="https://yezidrahmouni.herokuapp.com/" target="_blank">
+                    <Button colored>Live Demo</Button>
+                  </a>
 
 
-              </CardActions>
-              <CardMenu style={{ color: '#fff' }}>
-                <IconButton name="share" />
-              </CardMenu>
-            </Card>
+                </CardActions>
+                <CardMenu style={{ color: '#fff' }}>
+                  <IconButton name="share" />
+                </CardMenu>
+              </Card>
+            </div>
           </div>
 
         </React.Fragment>
